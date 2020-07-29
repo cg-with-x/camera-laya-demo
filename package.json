@@ -1,0 +1,24 @@
+{
+  "name": "camera_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "camera_demo": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "congyandong",
+  "license": "ISC",
+  "dependencies": {
+    "@byted-creative/camera": "0.0.12",
+    "@byted-creative/camera-face": "0.0.12",
+    "@byted-creative/camera-laya-layer": "0.0.13"
+  },
+  "devDependencies": {
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "tslib": "^2.0.0"
+  }
+}
